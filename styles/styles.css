@@ -82,3 +82,18 @@ footer {
     border: 1px solid #000;
 }
 
+.profile-image {
+    width: 85%;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+.volcano-image {
+    width: 85%;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
