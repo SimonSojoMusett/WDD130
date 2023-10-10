@@ -1,9 +1,9 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -13,81 +13,72 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none; /* Remove underline from links */
 }
 
-h1{
-    color: steelblue
+h1 {
+    color: steelblue;
 }
 
 img {
-    width: 150;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray ;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 10px;
+    padding: 10px 0; /* Add padding only vertically */
 }
+
 main {
     max-width: 840px;
     margin: 1rem;
-    border: 10px solid rgba (0,0,0,0.2) ;
-    padding: 1rem; ;
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: left;
 }
+
 aside {
-    width:20rem ;
-    margin:1rem ;
-    border: 10px solid rgba(0,0,0,0.2);
-    padding:1rem ;
-    background-color:#eee ;
+    width: 20rem;
+    margin: 1rem;
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
+
 main img {
     width: 150px;
     height: auto;
-}
-footer {
-    margin: 2rem;
-}
-p {
-    padding: 0;
-}
-footer{
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
-/*Class Selectors*/
-
-.box {
-    margin:1rem ;
-    border: 1px;
-    padding: 1rem;
-    background-color:#ddd ;
-    color: #000;
-}
-
-aside{
-    width: 20em;
-    text-align:center ;
-}
-
-main img{
     float: right;
 }
 
-aside{
-    position: relative;
-}
-aside h2{
+aside h2 {
     position: absolute;
     top: -10px;
     left: 50px;
 }
+
+footer {
+    margin: 2rem;
+    text-align: center;
+    border-top: 1px solid #000;
+    padding-top: 1em;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    border: 1px solid #000;
+}
+
