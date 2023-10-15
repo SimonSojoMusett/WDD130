@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Vollkorn:ital@1&display=swap');
 
 
-:root {
+:root  {
     --primary-color: #3498db; /* Color principal */
     --secondary-color: #2ecc71; /* Color secundario */
     --text-color: #333; /* Color del texto */
@@ -82,6 +82,7 @@ p {
         align-items: center; /* Alinea verticalmente en el centro */
         height: 500px; /* Establece la altura del contenedor */
         border: 3px solid var(--primary-color);
+        position: relative;
        
     }
     
